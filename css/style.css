@@ -278,7 +278,7 @@ h6,
     background:
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png),
-        linear-gradient(to bottom right, grey, pink);
+        linear-gradient(to bottom right, rgb(56, 55, 55), rgb(136, 125, 127));
     background-position:
         right 0px bottom 0px,
         left 0px top 50%;
@@ -512,3 +512,91 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+
+
+html,
+.card {
+  position: relative;
+  height: 100%;
+}
+
+.card {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 2rem;
+  padding: 0;
+  border:none;
+}
+
+
+html,
+.card {
+  position: relative;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 275px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background: linear-gradient(to bottom right, rgb(57, 56, 56), rgb(240, 115, 136));
+}
+
+.swiper-slide:nth-child(2n) {
+    background-color:  rgb(240, 115, 136);
+
+}
+
+.swiper-slide:nth-child(3n) {
+    background-color: rgb(178, 128, 136);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+

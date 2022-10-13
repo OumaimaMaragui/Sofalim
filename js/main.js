@@ -105,6 +105,6 @@ window.addEventListener('scroll', () => {
     let scrollTop = document.documentElement.scrollTop;
     console.log(scrollTop);
     if (scrollTop > 400) {
-        document.getElementById('imageZoom').style.width = 100 + (scrollTop-400) / 8 + '%';
+        document.getElementById('imageZoom').style.width = 100 + (scrollTop-400) / 18 + '%';
     }
   });
